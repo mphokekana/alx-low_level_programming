@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Print random number to variable
+ *main - Print random number to variable
  * 
- * Return: Always (Successful)
+ *Return: Always (Successful)
  */ 
 int main(void)
 {

@@ -1,10 +1,14 @@
-#include <stdio.h>
+#includ <stdio.h>
+
 /**
- * Description: main - Prints out a string to stdout.
- * Return: 0 if success.
- */
+* main - print the string in the put function
+*
+* Description: using the main function
+* this program prints "Programming is like building a multilingual puzzle
+* Return: 0
+*/
 int main(void)
 {
-	printf("\"Programming is like building a multilingual puzzle");
+	printf("with proper grammer, but the output is a piece of art,\n");
 	return (0);
 }

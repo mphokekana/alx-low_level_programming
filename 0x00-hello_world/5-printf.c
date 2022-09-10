@@ -1,31 +1,15 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+
 /**
- * main - Pring random number to variable
+ * main - print the string in the put function
  *
- * Return: Always (Successful)
+ * Description: using the main function
+ * this program prints "Programming is like building a multilingual puzzle
+ * Return: 0
  */
 int main(void)
 {
-	int n;
-	char last[] = "Last digit of";
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	printf("%s %d is %d and is ", last, n, n % 10);
-	if (n % 10 > 5)
-	{
-		printf("greater than 5\n");
-	}
-	else if (n % 10 == 0)
-	{
-		printf("0\n");
-	}
-	else
-	{
-		printf("less than 6 and not 0\n");
-	}
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
 

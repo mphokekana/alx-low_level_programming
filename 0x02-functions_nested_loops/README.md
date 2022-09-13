@@ -2,7 +2,7 @@
 
 1 - Write a function that prints the alphabet, in lowercase, followed by a new line.
 
-2 - Write a function that prints 10 times the alphabe, in lowercase, followed by a new line.
+2 - Write a function that prints 10 times the alphabet, in lowercase, followed by a new line.
 
 3 - Write a function that checks for lowercase character.
 
@@ -20,4 +20,4 @@
 
 10 - Write a function that adds two integer and results the result.
 
-11 - Write a function that pribts all natural nimbers from n to 98, followed by a new line.
+11 - Write a function that pribts all natural numbers from n to 98, followed by a new line.

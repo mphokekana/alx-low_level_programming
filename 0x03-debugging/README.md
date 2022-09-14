@@ -1,9 +1,17 @@
-0x03.C - Debugging
+0x03. C - Debugging
+
+
 
 By Carrie Ybay
 
-Ongoing project - started 14-09-2022, must end by 15-09-2022 (inn 1 day) -done with no tasks at the moment.
 
-Not sure when checker was relesed.
+
+Ongoing project - started 08-31-2021, must end by 09-03-2021 (in 1 day) -you're done with 0% of tasks.
+
+
+
+Checker was released at 09-01-2021 12:00 PM.
+
+
 
 QA review fully automated.

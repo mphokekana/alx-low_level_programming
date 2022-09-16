@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-/*8
+/**
  * print_diagonal - prints a diagonal
  * @n: parameter
  * Return: returns nothing

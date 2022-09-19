@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * reset_to _98 - resets the value of given integer to 98
- * @n: parameter
- * Return: nothing
+ * reset_to_98 - takes a pointer to an int as parameter and updates
+ * @n: character to be tested
+ * Return: 0
  */
 
 void reset_to_98(int *n)

@@ -3,7 +3,8 @@
 /**
  * string_toupper - function that changes lowwercase to uppercase
  * @str: parameter
- * Return: returns a character
+ *
+ * Return: adress tp the string
  */
 
 char *string_toupper(char *str)

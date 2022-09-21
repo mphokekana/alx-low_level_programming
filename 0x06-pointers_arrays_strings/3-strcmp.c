@@ -7,7 +7,7 @@
  * Return: returns 0 if s1 == s2 or positive is s1 > s2 or negative if s1 < s2
  */
 
-int _strcmp(char *s1, char *s2);
+int _strcmp(char *s1, char *s2)
 {
 	int i = 0, diff = 0;
 

@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Memmory address
- * Return - 0
+ * Return: returns memory adress
  */
 
 int main(void)

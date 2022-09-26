@@ -16,7 +16,7 @@ for (b = 0; *(accept + b); b++)
 if (*(a + s) == *(b + accept))
 break;
 }
-if (*(accept + a) == 0)
+if (*(accept + a) == '\0')
 break;
 }
 return (b);

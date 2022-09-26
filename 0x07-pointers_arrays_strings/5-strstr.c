@@ -26,4 +26,3 @@ haystack = s1 + 1;
 }
 return (0);
 }
-}

@@ -13,11 +13,11 @@ for (a = 0; *(s + a); a++)
 {
 for (b = 0; *(accept + b); b++)
 {
-if (*(a + s) == *(b + accept))
+if (*(s + a) == *(accept + b))
 break;
 }
-if (*(accept + a) == '\0')
+if (*(accept + b) == '\0')
 break;
 }
-return (b);
+return (a);
 }

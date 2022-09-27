@@ -21,7 +21,7 @@ for (b = 0; b <= size0; b = b + (size + 1))
 {
 diag1 = diag1 + a[b];
 }
-for (b = (size - 1); b < size; b = b + (size - 1))
+for (b = (size - 1); b < size0; b = b + (size - 1))
 {
 diag2 = diag2 + a[b];
 }

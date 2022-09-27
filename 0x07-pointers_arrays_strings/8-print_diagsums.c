@@ -4,7 +4,7 @@
  * print_diagsums - function that prints the sum of the two diagonals
  * @a: array to pointer
  * @size: sum of array
- * Return: void
+ * Return: void returns 0
  */
 void print_diagsums(int *a, int size)
 {

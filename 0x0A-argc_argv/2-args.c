@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * main - prints all arguments it receives.
  * @argc: arguments supplied to the program
@@ -11,7 +12,7 @@ int main(int argc, char *argv[])
 
 	int arguments = 0;
 
-	if (arguments > 0)
+	if (argc > 0)
 	{
 		while (arguments < argc)
 		{

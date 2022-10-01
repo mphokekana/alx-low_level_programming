@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - function
  * @argc: length of argv
  * @argv: number of argument
  * Return: Always 0
  */
+
 int main(int argc, char *argv[])
 {
 int position, total, change, aux;
@@ -19,7 +21,7 @@ printf("Error\n");
 return (1);
 }
 
-position = total = atoi(argv[1]);
+total = atoi(argv[1]);
 
 if (total <= 0)
 {

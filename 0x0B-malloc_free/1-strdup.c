@@ -10,8 +10,8 @@
  */
 char *_strdup(char *str)
 {
-	char *p;
-	unsigned int len, a;
+	char *nstr;
+	unsigned int len, i;
 
 	if (str == NULL)
 	{
@@ -24,18 +24,18 @@ char *_strdup(char *str)
 		len++;
 	}
 
-	p = malloc(sizeof(char) * (len + 1));
+	nstr = malloc(sizeof(char) * (len + 1));
 
-	if (p == NULL)
+	if (nstr == NULL)
 	{
 		return (NULL);
 	}
 
-	for (a = 0; a < len; a++)
+	for (i = 0; i < len; i++)
 	{
-		p[a] = str[a];
+		nstr[i] = str[i];
 	}
-	p[len] = '\0';
-	return (str);
+	nstr[len] = '\0';
+	return (nstr);
 
 }

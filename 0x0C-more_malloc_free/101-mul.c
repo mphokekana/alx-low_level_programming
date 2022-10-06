@@ -20,6 +20,7 @@ void _print(char *str, int l)
 			_putchar(str[a]);
 		a++;
 	}
+
 	_putchar('\n');
 	free(str);
 }
@@ -89,8 +90,9 @@ void init(char *str, int l)
 
 	for (g = 0; g < l; g++)
 		str[g] = '0';
-	str[g] = '\0';
+	str[g] = '\0'
 }
+
 /**
  * main - multiply two numbers
  *@argc: number of arguments
@@ -107,7 +109,7 @@ int main(int argc, char *argv[])
 	if (argc != 3 || check_for_digits(argv))
 	{
 		for (ti = 0; j[ti]; ti++)
-			_putchar(e(ti));
+			_putchar(j[ti]);
 		exit(98);
 	}
 	for (l1 = 0; argv[1][l1]; l1++)

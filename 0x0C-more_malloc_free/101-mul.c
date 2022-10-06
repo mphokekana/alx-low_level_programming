@@ -104,7 +104,7 @@ int main(int argc, char *argv[])
 	int l1, l2, ln, ti, i;
 	char *h;
 	char *t;
-	char j[] = "Error\n";
+	char j[] = "Error\n"
 
 	if (argc != 3 || check_for_digits(argv))
 	{
@@ -125,7 +125,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	init(h, ln - 1);
-	for (ti = l2 - 1, t = 0; ti >= 0; ti--, t++)
+	for (ti = l2 - 1, i = 0; ti >= 0; ti--, i++)
 	{
 		t = mul(argv[2][ti], argv[1], l1 - 1, h, (ln - 2) - i);
 		if (t == NULL)

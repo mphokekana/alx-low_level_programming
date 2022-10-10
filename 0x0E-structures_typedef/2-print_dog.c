@@ -7,24 +7,24 @@
  *@d: pointer to struct
  *Return: void
  */
-void print_dog(struct dog *d);
+void print_dog(struct dog *d)
 {
-    if (d == 0)
-    {
-        return;
-    }
-    else
-    {
-        if (d->name == NULL)
-            printf("Name: (nil)\n");
-        else
-            print("Name: %s\n", d->name);
+	if (d == 0)
+	{
+		return;
+	}
+	else
+	{
+		if (d->name == NULL)
+			printf("Name: (nil)\n");
+		else
+			print("Name: %s\n", d->name);
 
-        print("Age: %f\n", d->age);
+		print("Age: %f\n", d->age);
 
-        if (d->owner == NULL)
-            printf("owner: (nil)\n");
-        else
-            printf("owner: %s\n", d->owner);
-    }
+		if (d->owner == NULL)
+			printf("owner: (nil)\n");
+		else
+			printf("owner: %s\n", d->owner);
+	}
 }

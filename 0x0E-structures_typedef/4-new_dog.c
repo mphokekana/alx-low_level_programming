@@ -12,7 +12,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 	int a, b, c;
 
-	struct dog *n_dao = NULL;
+	struct dog *n_dog = NULL;
 
 	b = 0;
 	while (name[b] != '\0')
@@ -27,15 +27,15 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(n_dog);
 		return (NULL);
 	}
-	n_dog = malloc(sizeof(struct dog));
+	n_dog->name = malloc(sizeof(b + 1));
 	if (n_dog->name == NULL)
 	{
 		free(n_dog->name);
 		free(n_dog);
 		return (NULL);
 	}
-	n_dog->owner = malloc(b + 1);
-	if (n_day->owner == NULL)
+	n_dog->owner = malloc(c + 1);
+	if (n_dog->owner == NULL)
 	{
 		free(n_dog->name);
 		free(n_dog->owner);

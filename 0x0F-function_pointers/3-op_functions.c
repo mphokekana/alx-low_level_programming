@@ -1,6 +1,6 @@
 #include "3-calc.h"
 /**
- * op_add - return the sum of 2 numbers.
+ *op_add - return the sum of 2 numbers.
  *@a: integer
  *@b: integer
  *Return: sum
@@ -55,7 +55,7 @@ int op_mod(int a, int b)
 {
 	if (b == 0)
 	{
-		print("Error\n");
+		printf("Error\n");
 		exit(100);
 	}
 	return (a % b);

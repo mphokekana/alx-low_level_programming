@@ -18,8 +18,9 @@ int main(int argc, char *argv[])
 	if (argv[2][1] != '\0')
 	{
 		printf("Error\n");
-		exit(98);
+		exit(99);
 	}
+
 	c = argv[2][0];
 	if (c != '+' && c != '-' && c != '/' && c != '*' && c != '%')
 	{
@@ -30,6 +31,6 @@ int main(int argc, char *argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 	num = (get_op_func(argv[2]))(a, b);
-	printf("%d", num);
+	printf("%d\n", num);
 	return (0);
 }

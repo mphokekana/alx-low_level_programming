@@ -6,7 +6,7 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t list; //elements in my list
+	size_t list;
 
 	list = 0;
 	while (h != NULL)

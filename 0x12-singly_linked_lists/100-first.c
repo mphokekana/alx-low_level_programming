@@ -2,7 +2,7 @@
 
 /**
  * first - prints a message
- * Returns: void (nothing)
+ * Return: void (nothing)
  */
 void __attribute__ ((constructor)) first()
 {

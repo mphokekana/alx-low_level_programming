@@ -2,9 +2,8 @@
 
 /**
  * get_bit - returns the value of a bit at a given index
- * index.
  * @n: unsigned long integer
- * index: given index
+ * @index: given index
  * Return: value of bit
  */
 int get_bit(unsigned long int n, unsigned int index)

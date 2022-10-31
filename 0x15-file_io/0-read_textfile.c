@@ -14,21 +14,21 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fb;
+	int fd;
 	ssize_t length_rd, length_pt;
 	char *buf;
 
 	if (filename == NULL)
 		return (0);
 
-	fb = open(fliename, O_RDONLY);
+	fd = open(fliename, O_RDONLY);
 	if (fd == -1)
 		return (0);
 
-	buffer = malloc(sizeof(char) * letters);
-	if (buffer == NULL)
+	buf = malloc(sizeof(char) * letters);
+	if (buf == NULL)
 	{
-		close(fb);
+		close(fd);
 		return (0);
 	}
 

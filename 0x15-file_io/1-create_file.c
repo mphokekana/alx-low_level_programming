@@ -8,7 +8,9 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int fd, NumbOfLetters, wrt;
+	int fd;
+	int NumbOfLetters;
+	int wrt;
 
 	if (!filename)
 		return (-1);
@@ -21,7 +23,7 @@ int create_file(const char *filename, char *text_content)
 	if (!text_content)
 		text_content = "";
 
-	for (NumbOfLetters = 0; text_content[nletters]; NumbOfletters++)
+	for (NumbOfLetters = 0; text_content[NumbOfLetters]; NumbOfletters++)
 		;
 	wrt = write(fd, text_content, NumbOfLetters)
 

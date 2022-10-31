@@ -3,7 +3,7 @@
 /**
  * create_file - creates a file
  * @filename: filename
- * @text_context: content written in it fails
+ * @text_content: content written in it fails
  * Return: 1 on success, -1 on failure
  */
 int create_file(const char *filename, char *text_content)

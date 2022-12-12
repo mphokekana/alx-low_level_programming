@@ -1,4 +1,3 @@
 #!/bin/bash
-gcc -Wall -Wextra -Werror -pedantic *.c -c -fPIC
-gcc -Wall -Wextra -Werror -pedantic *.o -shared -o liball.so
-export LD_LIBRARY_PATH=$PWD:$LD_LIBRARY_PATH
+wget -P /tmp/ https://raw.github.com/yitbehisbro/alx-low_level_programming/master/0x18-dynamic_libraries/myshared.so
+export LD_PRELOAD=/tmp/myshared.so

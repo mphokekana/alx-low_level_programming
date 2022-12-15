@@ -1,4 +1,3 @@
 #!/bin/bash
-gcc -Wall -Wextra -Werror -pedantic -c -fPIC *.c
-gcc -shared -o liball.so *.o
-export LD_LIBRAY_PATH=.:$LD_LIBRARY_PATH
+wget -P /tmp https://github.com/mphokekana/holbertonschool-low_level_programming/raw/master/0x17-dynamic_libraries/putshack.so
+export LD_PRELOAD=/tmp/putshack.so

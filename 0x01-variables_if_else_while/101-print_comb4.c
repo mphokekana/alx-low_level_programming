@@ -40,3 +40,4 @@ if (n1 + n2 + n3 != 24)
 	putchar('\n');
 return (0);
 }
+

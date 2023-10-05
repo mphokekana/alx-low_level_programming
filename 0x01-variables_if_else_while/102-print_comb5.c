@@ -36,4 +36,3 @@ if (n1 != 98 || n2 != 99)
 	putchar('\n');
 return (0);
 }
-

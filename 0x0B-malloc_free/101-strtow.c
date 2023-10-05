@@ -72,4 +72,3 @@ char **strtow(char *str)
 
 	return (d);
 }
-

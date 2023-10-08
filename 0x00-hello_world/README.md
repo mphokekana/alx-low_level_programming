@@ -1,6 +1,5 @@
 Hello, World
 
-
 0 -  Write a script that runs a C file thriugh the preprocessor and save result into another file
 
 1 -Write a script that generate the assembly code of a C code and save it in output file.
